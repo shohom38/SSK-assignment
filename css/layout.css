@@ -11,9 +11,48 @@
 }
 
 .header-menu-wrap {
-    position: relative;
+    position: absolute;
+    top: 37px;
+    left: 266px;
 }
 
 .head-menu-list {
     display: inline-block;
+    padding: 12px 0 10px 0;
+    margin-right: -4px;
+}
+
+.head-menu-list:not(:last-child) {
+    background: url('../img/header/divider.png') right 0 no-repeat;
+}
+
+.head-menu-list a {
+}
+
+.hmp-1 {
+    padding: 12px 31px 12px 25px;
+}
+
+.hmp-2 {
+    padding: 12px 29px 12px 36px;
+}
+
+.hmp-3 {
+    padding: 12px 31px 12px 35px;
+}
+
+.hmp-4 {
+    padding: 12px 30px 12px 32px;
+}
+
+.menu-height {
+    height: 42px;
+}
+
+.under-bar-list {
+    display: inline-block;
+}
+
+.under-bar-menu-left {
+    position: absolute;
 }
