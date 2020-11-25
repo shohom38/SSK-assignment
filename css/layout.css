@@ -26,7 +26,31 @@
     background: url('../img/header/divider.png') right 0 no-repeat;
 }
 
-.head-menu-list a {
+.right-side-left {
+    position: absolute;
+    top: 0;
+    right: 19px;
+}
+
+.left-mark-bg {
+    background: url('../img/header/right-side-list-style.png') left center no-repeat;
+}
+
+.right-head-menu-list {
+    display: inline-block;
+}
+
+.right-head-menu-list a {
+    line-height: 39px;
+    padding: 16px 0 13px 0;
+}
+
+.right-head-menu-list:nth-child(1) {
+    padding-right: 13px;
+}
+
+.right-head-menu-list:nth-child(2) {
+    padding-right: 11px;
 }
 
 .hmp-1 {
