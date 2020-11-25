@@ -32,3 +32,13 @@ body {
 .head-menu-middle {
     background: url('../img/header/header-menu-middle.png') 0 center repeat-x;
 }
+
+.right-side-left {
+    padding-left: 46px;
+    background: url('../img/header/left-nav-bar-right-side.png') left 0 no-repeat;
+}
+
+.head-menu-right-side {
+    background: url('../img/header/mid-nav-bar-right-side.png') 0 0 repeat-x;
+
+}
