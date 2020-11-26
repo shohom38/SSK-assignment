@@ -40,5 +40,45 @@ body {
 
 .head-menu-right-side {
     background: url('../img/header/mid-nav-bar-right-side.png') 0 0 repeat-x;
+    padding: 0 14px 0 9px;
 
+}
+
+.side-inner-top-bg {
+    padding-top: 9px;
+    background: url('../img/aside-inner-top-bg.png') center top no-repeat;
+
+}
+
+.side-inner-middle-bg {
+    background: url('../img/aside-inner-middle-bg.png') center center repeat-y;
+
+}
+
+.side-inner-bottom-bg {
+    padding-bottom: 8px;
+    background: url('../img/aside-inner-bottom-bg.png') center bottom no-repeat;
+}
+
+
+.left-align-menu {
+    padding: 0 12px;
+    font-size: 12px;
+    list-style: none;
+    text-align: left;
+}
+
+.under-bar-menu-left {
+    padding-left: 13px;
+    background: url('../img/header/underbar-left.png') left center no-repeat;
+}
+
+.under-bar-menu-right {
+    padding-right: 13px;
+    background: url('../img/header/underbar-right.png') right center no-repeat;
+}
+
+.under-bar-menu-middle {
+    padding: 17px 0 17px 0;
+    background: url('../img/header/underbar-mid.png') center center repeat-x;
 }

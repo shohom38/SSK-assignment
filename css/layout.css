@@ -34,6 +34,7 @@
 
 .left-mark-bg {
     background: url('../img/header/right-side-list-style.png') left center no-repeat;
+    padding-left: 8px;
 }
 
 .right-head-menu-list {
@@ -42,7 +43,7 @@
 
 .right-head-menu-list a {
     line-height: 39px;
-    padding: 16px 0 13px 0;
+    padding: 9px 0 12px 0;
 }
 
 .right-head-menu-list:nth-child(1) {
@@ -54,7 +55,7 @@
 }
 
 .hmp-1 {
-    padding: 12px 31px 12px 25px;
+    padding: 12px 31px 6px 25px;
 }
 
 .hmp-2 {
@@ -79,4 +80,35 @@
 
 .under-bar-menu-left {
     position: absolute;
+    top: 39px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.under-bar-list {
+    margin-right: -4px;
+    padding-right: 15px;
+}
+
+.sidebar-menu {
+    display: inline-block;
+    width: 156px;
+    position: absolute;
+    top: 154px;
+    left: 100px;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 6px;
+    padding-bottom: 7px;
+    margin: 0 auto;
+    margin-bottom: -4px;
+    background: url('../img/aside-top-bg.png') 0 0 no-repeat;
+    background-size: auto;
+}
+
+.left-nav-inner-ul {
+    list-style: none;
 }
