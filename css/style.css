@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;;
 }
 
 body {
     min-width: 1200px;
+    background: url('../img/background/background-image.png') 0 0 repeat-x;
 }
 
 #top-logo a {
@@ -22,6 +24,7 @@ body {
     background: url('../img/header/header-menu-left.png') left center no-repeat;
     padding-left: 20px;
     min-width: 829px;
+    position: relative;
 }
 
 .head-menu-right {
@@ -39,8 +42,8 @@ body {
 }
 
 .head-menu-right-side {
-    background: url('../img/header/mid-nav-bar-right-side.png') 0 0 repeat-x;
-    padding: 0 18px 0 12px;
+    background: url('../img/header/mid-nav-bar-right-side-bg.png') 0 0 repeat-x;
+    padding: 0 0 0 9px;
 
 }
 
@@ -55,8 +58,9 @@ body {
 }
 
 .under-bar-menu-middle {
-    background: url('../img/header/underbar-mid.png') center center repeat-x;
-    padding-left: 20px;
+    background: url('../img/header/underbar-mid.png') 0 center repeat-x;
+    padding-bottom: 4px;
+    padding-left: 42px;
 }
 
 .side-inner-top-bg {
@@ -82,20 +86,35 @@ body {
     text-align: left;
 }
 
+.left-align-menu>li>a {
+    color: #303030;
+    text-decoration: none;
+    background: url('../img/sidemenu/some.png') 1px 10px no-repeat;
+}
+
 .left-align-menu>li:not(:last-child) {
-    border-bottom: 1px dotted #6a6a6a;
+    background: url('../img/sidemenu/bottom-divider.png') center bottom repeat-x;
 }
 
 .left-nav-inner-ul {
+    padding: 3.5px 15px 3.5px 6px;
     list-style: none;
+    background: url('../img/sidemenu/bottom-divider.png') center top repeat-x;
+    background-color: #f0f0f0;
 }
+
+.left-nav-inner-ul>li {
+    padding-left: 9px;
+    background: url('../img/sidemenu/left-menu-marker2.png') left center no-repeat;
+}
+
 
 .left-nav-inner-a {
     display: inline-block;
     width: 100%;
     color: #303030;
     text-decoration: none;
-    padding: 4.5px 0;
+    padding: 3.5px 0;
 }
 
 .left-nav-inner-a:hover {
@@ -108,14 +127,122 @@ body {
 }
 
 .dif-padding-a {
-    padding: 0 0 8px 11px;
+    display: block;
+    padding: 5px 0 8px 9px;
 }
 
 .dif-hover-a {
-    padding: 9px 0 6px 10px;
+    display: block;
+    padding: 7px 0 6px 10px;
+
 }
 
-.dif-hover-a:hover {
+.dif-hover-b {
+    display: block;
+    padding: 7px 0 6px 10px;
+}
+
+.hovering-a:hover {
     background-color: #f0f0f0;
 }
 
+.route>a {
+    text-decoration: none;
+    color: #7c7d7b;
+    background: url('../img/contents-container/route-arrow.png') right 1px no-repeat;
+    padding-left: 2px;
+}
+
+.route>span {
+    padding-left: 2px;
+}
+
+.route>a:nth-child(1) {
+    padding-right: 15px;
+}
+
+.route>a:nth-child(2) {
+    padding-right: 11px;
+}
+
+.days {
+    color: #6a6a6a;
+}
+
+.tbody-hover-height>tr>td {
+    color: #5b5b5b;
+}
+
+em {
+    font-style: normal;
+}
+
+.no-hover>span>em>a {
+    color: #f18061;
+    text-decoration: none;
+}
+
+.today-bg {
+    padding: 0 7px 7px;
+    background-color: #fcf3de;
+}
+
+.df-color {
+    min-width: 110px;
+    min-height: 82px;
+    background-color: #f7f7f7;
+}
+
+.sunday {
+    color: #e44c2e;
+}
+
+.saturday {
+    color: #3176c4;
+}
+
+.SSK-table th {
+    background: linear-gradient(#ffffff, #f2f2f2);
+}
+
+button {
+    font-size: 11px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-display {
+    display: inline-block;
+}
+
+.left-btn-left {
+    background: url('../img/contents-container/left-btn-left.png') left center no-repeat;
+    padding: 2px 0 2px 7px;
+}
+
+.left-btn-right {
+    background: url('../img/contents-container/left-btn-right.png') right center no-repeat;
+    padding-right: 5px;
+}
+
+.btn-middle {
+    background: url('../img/contents-container/left-btn-mid.png') center center repeat-x;
+    padding: 3px 3px;
+}
+
+.right-btn-left {
+    background: url('../img/contents-container/right-btn-left.png') left center no-repeat;
+    padding-left: 5px;
+}
+
+.right-btn-right {
+    background: url('../img/contents-container/right-btn-right.png') right center no-repeat;
+    padding: 2px 7px 2px 0;
+}
+
+h3>img {
+    display: inline-block;
+    background: url('../img/contents-container/bullet.png') left center no-repeat;
+    padding: 4px 0 6px 40px;
+}
