@@ -23,7 +23,7 @@ body {
 .head-menu-left {
     background: url('../img/header/header-menu-left.png') left center no-repeat;
     padding-left: 20px;
-    min-width: 829px;
+    width: 829px;
     position: relative;
 }
 
@@ -103,27 +103,25 @@ body {
     background-color: #f0f0f0;
 }
 
-.left-nav-inner-ul>li {
-    padding-left: 9px;
-    background: url('../img/sidemenu/left-menu-marker2.png') left center no-repeat;
-}
-
-
 .left-nav-inner-a {
     display: inline-block;
     width: 100%;
     color: #303030;
     text-decoration: none;
     padding: 3.5px 0;
+    padding-left: 9px;
+    background: url('../img/sidemenu/left-menu-marker2.png') left center no-repeat;
 }
 
 .left-nav-inner-a:hover {
     background: #ffffff;
 }
 
-.left-nav-inner-a>span {
+.left-nav-inner-a:hover {
     font-weight: bold;
     color: #408d00;
+    background: url('../img/sidemenu/hover-slide.png') left center no-repeat;
+    padding-left: 9px;
 }
 
 .dif-padding-a {
@@ -229,6 +227,7 @@ button {
 .btn-middle {
     background: url('../img/contents-container/left-btn-mid.png') center center repeat-x;
     padding: 3px 3px;
+    vertical-align: middle;
 }
 
 .right-btn-left {
