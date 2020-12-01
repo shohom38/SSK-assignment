@@ -7,7 +7,8 @@
 
 body {
     min-width: 1200px;
-    background: url('../img/background/background-image.png') 0 0 repeat-x;
+    background: url('../img/background/wrap-bg.png') 0 top repeat-x;
+    background-size: contain;
 }
 
 #top-logo a {
@@ -124,6 +125,10 @@ body {
     padding-left: 9px;
 }
 
+.contents-box {
+    background-color: #ffffff;
+}
+
 .dif-padding-a {
     display: block;
     padding: 5px 0 8px 9px;
@@ -171,13 +176,10 @@ body {
     color: #5b5b5b;
 }
 
-em {
-    font-style: normal;
-}
-
-.no-hover>span>em>a {
+.no-hover>em {
     color: #f18061;
-    text-decoration: none;
+    font-style: normal;
+    font-size: 11px;
 }
 
 .today-bg {
