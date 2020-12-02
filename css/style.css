@@ -71,13 +71,13 @@ body {
 }
 
 .side-inner-middle-bg {
-    background: url('../img/sidemenu/aside-inner-middle-bg.png') center center repeat-y;
+    background: url('../img/sidemenu/side-menu-mid.png') center center repeat-y;
 
 }
 
 .side-inner-bottom-bg {
-    padding-bottom: 7px;
-    background: url('../img/sidemenu/aside-inner-bottom-bg.png') center bottom no-repeat;
+    padding-bottom: 11px;
+    background: url('../img/sidemenu/side-menu-bottom.png') center bottom no-repeat;
 }
 
 .left-align-menu {
@@ -131,7 +131,7 @@ body {
 
 .dif-padding-a {
     display: block;
-    padding: 5px 0 8px 9px;
+    padding: 3px 0 8px 9px;
 }
 
 .dif-hover-a {
@@ -142,7 +142,7 @@ body {
 
 .dif-hover-b {
     display: block;
-    padding: 7px 0 6px 10px;
+    padding: 7px 0 3px 10px;
 }
 
 .hovering-a:hover {
@@ -189,7 +189,7 @@ body {
 
 .df-color {
     min-width: 110px;
-    min-height: 82px;
+    min-height: 85px;
     background-color: #f7f7f7;
 }
 

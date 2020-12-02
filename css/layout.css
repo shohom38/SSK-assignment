@@ -131,9 +131,9 @@
 h2 {
     padding: 2px 0;
     margin: 0 auto;
-    margin-bottom: -4px;
-    background: url('../img/sidemenu/aside-top-bg.png') 0 0 no-repeat;
+    background: url('../img/sidemenu/side-menu-top.png') 0 0 no-repeat;
     background-size: auto;
+    height: 38px;
 }
 
 h2>img {
