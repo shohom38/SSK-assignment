@@ -8,7 +8,7 @@
 body {
     min-width: 1200px;
     background: url('../img/background/wrap-bg.png') 0 top repeat-x;
-    background-size: contain;
+    background-size: auto;
 }
 
 #top-logo a {
@@ -39,13 +39,28 @@ body {
 
 .right-side-left {
     padding-left: 46px;
-    background: url('../img/header/left-nav-bar-right-side.png') left 0 no-repeat;
+    background: url('../img/header/header-rightside.png') 0 0 no-repeat;
 }
 
-.head-menu-right-side {
-    background: url('../img/header/mid-nav-bar-right-side-bg.png') 0 0 repeat-x;
-    padding: 0 0 0 9px;
 
+.hover-list-1:hover .under-menu-1 {
+    display: block;
+}
+
+.hover-list-2:hover .under-menu-2 {
+    display: block;
+}
+
+.hover-list-3:hover .under-menu-3 {
+    display: block;
+}
+
+.hover-list-4:hover .under-menu-4 {
+    display: block;
+}
+
+.under-menu-1, .under-menu-2, .under-menu-3, .under-menu-4 {
+    display: none;
 }
 
 .under-bar-menu-left {
@@ -201,7 +216,7 @@ body {
     color: #3176c4;
 }
 
-.SSK-table th {
+.SSK-calender th {
     background: linear-gradient(#ffffff, #f2f2f2);
 }
 

@@ -6,7 +6,7 @@
 
 #header-wrap {
     position: relative;
-    margin-bottom: 48px;
+    margin-bottom: 53px;
 }
 
 #top-logo {
@@ -124,7 +124,7 @@
     display: inline-block;
     width: 150px;
     position: absolute;
-    top: 27px;
+    left: -1px;
     text-align: center;
 }
 
@@ -145,13 +145,14 @@ h2>img {
 }
 
 .contents-container {
-    padding-left: 167px;
+    padding-left: 165px;
     margin-bottom: 26px;
 }
 
 .top-section {
     text-align: right;
-    margin-bottom: 8px;
+    line-height: 8px;
+    margin-bottom: 11px;
     padding-right: 8px;
 }
 
@@ -198,14 +199,13 @@ h2>img {
 
 h3 {
     margin-bottom: 9px;
-    padding-top: 2px;
 }
 
 .table-wrap {
     width: 783px;
 }
 
-.SSK-table {
+.SSK-calender {
     width: 100%;
     border: 1px solid #dddddd;
     border-collapse: collapse;
