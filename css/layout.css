@@ -277,6 +277,7 @@ caption {
 #footer-wrap {
     background: url('../img/footer/footer-div.png') 0 top repeat-x;
     padding-top: 25px;
+    position: relative;
 }
 
 .footer-cover {
@@ -291,7 +292,8 @@ caption {
 
 .footer-right {
     display: inline-block;
-    padding-left: 24px;
+    padding-left: 26px;
+    position: absolute;
 }
 
 .footer-list{
@@ -312,6 +314,8 @@ caption {
 }
 
 .footer-list-wrap {
+    padding-top: 6px;
+    line-height: 11px;
     margin-bottom: 4px;
 }
 
@@ -325,4 +329,19 @@ caption {
 
 .address2 {
     margin-bottom: -4px;
+}
+
+.copyright>a>img {
+    background: url('../img/footer/message-img.png') left center no-repeat;
+    padding-left: 14px;
+    line-height: 10px;
+}
+
+.copyright>img {
+    vertical-align: middle;
+}
+
+.copyright>a {
+    line-height: 3px;
+    vertical-align: middle;
 }
