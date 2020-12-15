@@ -243,8 +243,8 @@ caption {
 
 .no-hover {
     min-width: 110px;
-    min-height: 84px;
-    border: 1px solid #ffffff;
+    min-height: 85px;
+    border: 1px solid #fcf3de;
 }
 
 .no-hover:hover {
