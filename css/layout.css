@@ -233,6 +233,10 @@ caption {
     border: 1px solid #ffffff;
 }
 
+.today {
+    border: 1px solid #fcf3de;
+}
+
 .hover-td>span {
     font-size: 11px;
 }

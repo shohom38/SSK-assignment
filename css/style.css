@@ -191,14 +191,13 @@ body {
     color: #5b5b5b;
 }
 
-.no-hover>em {
+.today>em {
     color: #f18061;
     font-style: normal;
     font-size: 11px;
 }
 
 .today-bg {
-    padding: 0 7px 7px;
     background-color: #fcf3de;
 }
 
